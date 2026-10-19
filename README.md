@@ -35,7 +35,7 @@ The Redmi Note 10S is built around a MediaTek Helio G95 processor and a 6.43-inc
 - This step is after unlocking the bootloader!
 - To flash a custom rom you first need to flash a custom recovery. While flashing the custom recovery please take notice of the kernel versions. a16 or higher ROMs generally use 4.19 kernel, if the rom is flashed using a lower kernel version recovery the ROM will encounter issues like no sound, vibration etc.
   
-### How to flash custom recovery?
+## How to flash custom recovery?
 
 - First obviously you have to download the custom recovery. For A16 or higher https://
 - To actually flash the custom recovery you need to download platform tools from https://developer.android.com/tools/releases/platform-tools.
