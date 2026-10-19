@@ -35,6 +35,4 @@ The Redmi Note 10S is built around a MediaTek Helio G95 processor and a 6.43-inc
 - Phone specifications above are based on Xiaomi's published product specifications. Actual configuration and included accessories can vary by region.
 - Rooting and module installation can affect device security, warranty, and system stability. Keep a recovery path and backups appropriate to your setup.
 
-# IntegrityFix Manager for Redmi Note 10S
-
-An Android app for checking and setting up the Play Integrity Fix and TrickyStore modules on a rooted device. The project is named **IntegrityFix Manager** and is intended for use on a Redmi Note 10S; compatibility depends on the Android ROM and root setup, not only on the phone model.
+# Integrity Fix for redmi note 10s
