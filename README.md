@@ -34,8 +34,51 @@ The Redmi Note 10S is built around a MediaTek Helio G95 processor and a 6.43-inc
 
 - This step is after unlocking the bootloader!
 - To flash a custom rom you first need to flash a custom recovery. While flashing the custom recovery please take notice of the kernel versions. a16 or higher ROMs generally use 4.19 kernel, if the rom is flashed using a lower kernel version recovery the ROM will encounter issues like no sound, vibration etc.
-- How to flash custom recovery?
-- 
+  
+### How to flash custom recovery?
+
+- First obviously you have to download the custom recovery. For A16 or higher https://
+- To actually flash the custom recovery you need to download platform tools from https://developer.android.com/tools/releases/platform-tools.
+
+- After downloading the platform tools follow the following steps:
+  1. Extract the zip
+  2. Open the folder
+  3. Open a cmd/terminal inside the folder using the following steps given below if you happen to not know.
+ 
+
+<details>
+<summary>Click here</summary>
+
+<img width="840" height="122" alt="image" src="https://github.com/user-attachments/assets/869fe0f2-7fb4-4d8e-9c4c-aea3cd37b867" />
+
+<img width="973" height="535" alt="image" src="https://github.com/user-attachments/assets/3882d940-13b2-4bbc-acc8-227617ed8b06" />
+
+<img width="811" height="208" alt="image" src="https://github.com/user-attachments/assets/2236c0ec-b80e-4d91-96e1-776e2063ae45" />
+
+After writing "cmd", press Enter. This will open a terminal.
+
+</details>
+
+  4. Put your phone in fastboot mode by holding power + vol down button and connect your phone to the laptop/desktop using cable
+  5. Check if your laptop detects the phone using the following command inside the terminal of platform tools folder `Fastboot devices`. 
+  Usually output looks like <br>
+  `Your_device_id    fastboot`<br>
+If your device successfully gets detected by fastboot your ready to goto the next step, however incase your device does not get detected by fastboot follow the steps given below
+<details>
+  <summary>Troubleshoot fastboot not detecting device</summary>
+
+  If your device does not get detected by fastboot it is most likely a driver issue to solve follow these steps:
+  1. Open device manager and make sure your device is connected to the laptop/pc via cable
+  2. Find android (There will be a yellow triangle with ! mark inside it indicating a issue) and double click on it, incase android does not appear restart your laptop. 
+  3. Goto driver option and click on update driver
+  4. Click browse my computer for driver
+  5. Click on android bootloader interface and install it
+  6. Done!
+
+     This should install the necessary drivers in your device for the fastboot to work smoothly try running the `fastboot devices` command again to check connection
+</details>
+6. To flash the recovery this is the command `fastboot flash boot recovery_file.img`
+7.Done your recovery should be flashed successfully!
 
 ## Additional notes
 
