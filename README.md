@@ -25,15 +25,14 @@ The Redmi Note 10S is built around a MediaTek Helio G95 processor and a 6.43-inc
 - Unlocked bootloader
 - SD card (optional but recommended)
 
+  # Please follow the steps in order if your doing it from the very beggining
+
+ Unlock bootloader -> Flash custom recovery -> Flash custom ROM
+
 ## How to unlock bootloader 
 
 - You will find many tutorials for unlocking the device with official xiaomi method on YouTube, It is recommended to unlock the device using official method. How ever you MAY have to wait 7 days or more for the device to unlock or if you are lucky you may not have to wait at all! 
 - https://xdaforums.com/t/how-to-unlock-bootloader-in-redmi-note-10s-without-waiting.4659081/ (Advanced/**Risky**)
-
-## How to flash custom ROM?
-
-- This step is after unlocking the bootloader!
-- To flash a custom rom you first need to flash a custom recovery. While flashing the custom recovery please take notice of the kernel versions. a16 or higher ROMs generally use 4.19 kernel, if the rom is flashed using a lower kernel version recovery the ROM will encounter issues like no sound, vibration etc.
   
 ## How to flash custom recovery?
 
@@ -80,6 +79,11 @@ If your device successfully gets detected by fastboot your ready to goto the nex
 <br>
 6. To flash the recovery this is the command `fastboot flash boot recovery_file.img`
 7.Done your recovery should be flashed successfully!
+
+## How to flash custom ROM?
+
+- This step is after unlocking the bootloader and AFTER flashing custom recovery.
+- 
 
 ## Additional notes
 
