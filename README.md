@@ -47,7 +47,7 @@ The Redmi Note 10S is built around a MediaTek Helio G95 processor and a 6.43-inc
  
 
 <details>
-<summary>Click here</summary>
+<summary><B>Click here</B></summary>
 
 <img width="840" height="122" alt="image" src="https://github.com/user-attachments/assets/869fe0f2-7fb4-4d8e-9c4c-aea3cd37b867" />
 
@@ -65,7 +65,7 @@ After writing "cmd", press Enter. This will open a terminal.
   `Your_device_id    fastboot`<br>
 If your device successfully gets detected by fastboot your ready to goto the next step, however incase your device does not get detected by fastboot follow the steps given below
 <details>
-  <summary>Troubleshoot fastboot not detecting device</summary>
+  <summary><b style="font-weight: italic">Troubleshoot fastboot not detecting device</b></summary>
 
   If your device does not get detected by fastboot it is most likely a driver issue to solve follow these steps:
   1. Open device manager and make sure your device is connected to the laptop/pc via cable
