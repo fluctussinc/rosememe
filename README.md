@@ -82,13 +82,21 @@ If your device successfully gets detected by fastboot your ready to goto the nex
 
 ## How to flash custom ROM?
 
-- This step is after unlocking the bootloader and AFTER flashing custom recovery.
-- 
+- *This step is after unlocking the bootloader and **AFTER** flashing custom recovery.*
+- Keep the ROM file inside your sd card if you do not have a sd card you can keep the file in your phone storage and flash it, make sure to not format
+ 1. Format/Factory reset (skip this step if you want to sideload from the device storage)
+ 2. Apply update
+ 3. Sideload
+ 4. Select the ROM zip and install
+ 5. It may ask for signature verification, press continue for the ROM to install
+ 6. After the install format/factory reset again
+ 7. Done! You may reboot to the system now
 
 ## Additional notes
 
 - 33w fast charging is not supported by most custom ROMS.
-- You can always go back to stock/factory ROM.
+- You can always go back to stock/factory ROM
+- Banking and security sensitive apps like PayTM do not work on custom roms without PlayIntegrity and other security fixes.
 
 ## Note
 
