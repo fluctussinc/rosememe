@@ -146,3 +146,5 @@ And for custom roms you got two options.
 Basically pixel 6a fingerprint is your savior for custom roms
 
 (https://t.me/ksunext/1180)
+
+### If you found this guide useful maybe **⭐** the guide! (no pressure)
