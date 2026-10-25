@@ -25,7 +25,7 @@ The Redmi Note 10S is built around a MediaTek Helio G95 processor and a 6.43-inc
 - Unlocked bootloader
 - SD card (optional but recommended)
 
-  # Please follow the steps in order if your doing it from the very beggining
+## Please follow the steps in order if your doing it from the very beggining
 
  Unlock bootloader -> Flash custom recovery -> Flash custom ROM
 
