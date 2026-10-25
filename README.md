@@ -94,3 +94,27 @@ If your device successfully gets detected by fastboot your ready to goto the nex
 - Rooting and module installation can affect device security, warranty, and system stability. Keep a recovery path and backups appropriate to your setup.
 
 # Integrity Fix for redmi note 10s
+
+⚠️ READ THIS BEFORE COMPLAINING ABOUT PLAY INTEGRITY ⚠️
+
+On October 14, custom ROM community noticed that every device without Remote Key Provisioning running a custom ROM only have BASIC_INTEGRITY when checking Play Integrity status.
+
+It is NOT a keybox issue, modules issue or skill issue. Google actually did something on their side, and we are still trying to figure out.
+
+It looks like they're checking more than just device fingerprint or bootloader status, but don't worry, it already happened before, and the community found a way to fix it, so PLEASE. Don't complain about Play Integrity, it cannot be fixed now.
+
+I highly suggest you guys to not wipe your data, uninstall or clear WhatsApp or banking apps data because it will probably not work anymore when you try to login. Just wait until a fix for this.
+
+**Here is the latest fix currently known**
+
+For play integrity fix with hardware attested keybox you basically need to select devices with DEVICE_INITIAL_SDK_INT value 32 - 35, value 36 only requires you use RKP attested keybox.
+
+And for custom roms you got two options.
+
+1. Turn off in-built keybox and pif spoof, install teesimulator (use hardware attested keybox and additional extra configs) + pif-inject (enable first three toggles and use DEVICE_INITIAL_SDK_INT=32, which is pixel 6a) 
+
+2. Wait for you custom rom devs to either adapt the current methods and do it for you like method 1, but you can try loading a pixel 6a fingerprint config file and load the keybox as usual
+
+Basically pixel 6a fingerprint is your savior for custom roms
+
+(https://t.me/ksunext/1180)
