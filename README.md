@@ -83,17 +83,19 @@ If your device successfully gets detected by fastboot your ready to goto the nex
 ## How to flash custom ROM?
 
 - *This step is after unlocking the bootloader and **AFTER** flashing custom recovery.*
-- Keep the ROM file inside your sd card if you do not have a sd card you can keep the file in your phone storage and flash it, make sure to not format
+- Keep the ROM file inside your sd card if you do not have a sd card you can keep the file in your phone storage and flash it, make sure to **not** format
  1. Reboot to recovery using power + volume up button
  2. Format/Factory reset (skip this step if you want to sideload from the device storage)
  3. Apply update
  4. Sideload
  5. Select the ROM zip and install
  6. It may ask for signature verification, press continue for the ROM to install
- 7. After the install format/factory reset again
+ 7. After the install format/factory reset again (Required)
  8. Done! You may reboot to the system now
 
- ## How to sideload using laptop/pc
+ #### How to sideload using laptop/pc
+ <details>
+ <summary><B>Click here</B></summary>
  
  - *This step is after unlocking the bootloader and **AFTER** flashing custom recovery.*
  1. Reboot to recovery using power + volume up button
@@ -104,6 +106,7 @@ If your device successfully gets detected by fastboot your ready to goto the nex
  6. To flash the rom type `adb sideload rom_name.zip` and press enter. You can also drag and drop the zip from your pc to the terminal to automatically fill in the path to your file/zip.
  7. After the install format/factory reset again
  8. Done! You may reboot to the system now
+</details>
 
 ## Additional notes
 
