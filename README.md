@@ -49,11 +49,11 @@ The Redmi Note 10S is built around a MediaTek Helio G95 processor and a 6.43-inc
 <summary><B>Click here</B></summary>
 
 <img width="840" height="122" alt="image" src="https://github.com/user-attachments/assets/869fe0f2-7fb4-4d8e-9c4c-aea3cd37b867" />
-
+<br><br>
 <img width="973" height="535" alt="image" src="https://github.com/user-attachments/assets/3882d940-13b2-4bbc-acc8-227617ed8b06" />
-
+<br><br>
 <img width="811" height="208" alt="image" src="https://github.com/user-attachments/assets/2236c0ec-b80e-4d91-96e1-776e2063ae45" />
-
+<br><br>
 After writing "cmd", press Enter. This will open a terminal.
 
 </details>
@@ -84,13 +84,26 @@ If your device successfully gets detected by fastboot your ready to goto the nex
 
 - *This step is after unlocking the bootloader and **AFTER** flashing custom recovery.*
 - Keep the ROM file inside your sd card if you do not have a sd card you can keep the file in your phone storage and flash it, make sure to not format
- 1. Format/Factory reset (skip this step if you want to sideload from the device storage)
- 2. Apply update
- 3. Sideload
- 4. Select the ROM zip and install
- 5. It may ask for signature verification, press continue for the ROM to install
- 6. After the install format/factory reset again
- 7. Done! You may reboot to the system now
+ 1. Reboot to recovery using power + volume up button
+ 2. Format/Factory reset (skip this step if you want to sideload from the device storage)
+ 3. Apply update
+ 4. Sideload
+ 5. Select the ROM zip and install
+ 6. It may ask for signature verification, press continue for the ROM to install
+ 7. After the install format/factory reset again
+ 8. Done! You may reboot to the system now
+
+ ## How to sideload using laptop/pc
+ 
+ - *This step is after unlocking the bootloader and **AFTER** flashing custom recovery.*
+ 1. Reboot to recovery using power + volume up button
+ 2. Format/Factory reset 
+ 3. Apply update
+ 4. Enable adb and make sure your device is connected to the phone through a cable
+ 5. In the platform tools folder open a CMD/Terminal
+ 6. To flash the rom type `adb sideload rom_name.zip` and press enter. You can also drag and drop the zip from your pc to the terminal to automatically fill in the path to your file/zip.
+ 7. After the install format/factory reset again
+ 8. Done! You may reboot to the system now
 
 ## Additional notes
 
