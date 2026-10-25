@@ -68,12 +68,12 @@ If your device successfully gets detected by fastboot your ready to goto the nex
   <summary><b>Troubleshoot fastboot not detecting device</b></summary>
   <br><br>
   If your device does not get detected by fastboot it is most likely a driver issue to solve follow these steps:<br>
-  1. Open device manager and make sure your device is connected to the laptop/pc via cable<br>
-  2. Find android (There will be a yellow triangle with ! mark inside it indicating a issue) and double click on it, incase android does not appear restart your laptop. <br>
-  3. Goto driver option and click on update driver<br>
-  4. Click browse my computer for driver<br>
-  5. Click on android bootloader interface and install it<br>
-  6. Done!<br>
+  i. Open device manager and make sure your device is connected to the laptop/pc via cable<br>
+  ii. Find android (There will be a yellow triangle with ! mark inside it indicating a issue) and double click on it, incase android does not appear restart your laptop. <br>
+  iii. Goto driver option and click on update driver<br>
+  iv. Click browse my computer for driver<br>
+  v. Click on android bootloader interface and install it<br>
+  vi. Done!<br>
 
      This should install the necessary drivers in your device for the fastboot to work smoothly try running the `fastboot devices` command again to check connection
 </details>
