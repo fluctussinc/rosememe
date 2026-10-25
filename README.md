@@ -65,8 +65,8 @@ After writing "cmd", press Enter. This will open a terminal.
   `Your_device_id    fastboot`<br>
 If your device successfully gets detected by fastboot your ready to goto the next step, however incase your device does not get detected by fastboot follow the steps given below
 <details>
-  <summary><b style="font-weight: italic">Troubleshoot fastboot not detecting device</b></summary>
-
+  <summary><b>Troubleshoot fastboot not detecting device</b></summary>
+  <br><br>
   If your device does not get detected by fastboot it is most likely a driver issue to solve follow these steps:
   1. Open device manager and make sure your device is connected to the laptop/pc via cable
   2. Find android (There will be a yellow triangle with ! mark inside it indicating a issue) and double click on it, incase android does not appear restart your laptop. 
